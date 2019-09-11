@@ -1,0 +1,14 @@
+#home {
+    background-color: black;
+    color: white;
+}
+
+#homeCol {
+    /* background-color: black; */
+}
+
+#mainPic {
+    object-fit: cover;
+    position: center;
+    height: 450px;
+}
