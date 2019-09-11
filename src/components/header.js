@@ -38,10 +38,10 @@ const Header = ({ siteTitle }) => (
     <Navbar.Toggle className='mr-3' aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav" style={{ marginRight: '150px' }}>
       <Nav className="ml-auto" style={{fontFamily: 'Montserrat'}}>
-        <Nav.Link className='p-1 pl-4 pr-4 ' href="#about" style={{ fontSize: '15px', color: 'white' }}>ABOUT</Nav.Link>
-        <Nav.Link className='p-1 pl-4 pr-4 ' href="#portfolio" style={{ fontSize: '15px', color: 'white' }}>WORK</Nav.Link>
-        <Nav.Link className='p-1 pl-4 pr-4 ' href="#portfolio" style={{ fontSize: '15px', color: 'white' }}>SERVICES</Nav.Link>
-        <Nav.Link className='p-1 pl-4  ' href="#contact" style={{ fontSize: '15px', color: 'white' }}>CONTACT</Nav.Link>
+        <Nav.Link className='p-1 pl-4 pr-4 ' href="#about" style={{ fontSize: '15px', color: 'gray' }}>ABOUT</Nav.Link>
+        <Nav.Link className='p-1 pl-4 pr-4 ' href="#portfolio" style={{ fontSize: '15px', color: 'gray' }}>WORK</Nav.Link>
+        <Nav.Link className='p-1 pl-4 pr-4 ' href="#portfolio" style={{ fontSize: '15px', color: 'gray' }}>SERVICES</Nav.Link>
+        <Nav.Link className='p-1 pl-4  ' href="#contact" style={{ fontSize: '15px', color: 'gray' }}>CONTACT</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
