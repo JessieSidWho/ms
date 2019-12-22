@@ -620,3 +620,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}

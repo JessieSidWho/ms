@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+a.dropdown-toggle.nav-link {
+  font-size: 15px;
+  color: gray;
+}
+
