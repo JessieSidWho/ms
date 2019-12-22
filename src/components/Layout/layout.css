@@ -621,7 +621,12 @@ pre tt:after {
   }
 }
 
-.btn:focus,.btn:active {
-  outline: none !important;
-  box-shadow: none;
+.button:active, 
+ button:active,
+.button:focus, 
+ button:focus,
+.button:hover, 
+ button:hover {
+    border:none !important;
+    outline:none !important;
 }
