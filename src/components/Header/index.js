@@ -16,17 +16,18 @@ const Header = () => (
     <Navbar.Toggle id='toggle' className='mr-3 text-white' aria-controls="responsive-navbar-nav"><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></Navbar.Toggle>
     <Navbar.Collapse id="responsive-navbar-nav" style={{ marginRight: '150px' }}>
       <Nav className="ml-auto" style={{ fontFamily: 'Montserrat' }}>
-        <Nav.Link id='about' className=' pl-4 pr-4 ' href="#about" style={{ fontSize: '15px', color: 'gray' }}>ABOUT</Nav.Link>
+        <Nav.Link id='home' className=' pl-4 pr-4 ' href="#home" style={{ fontSize: '15px', color: 'gray !important' }}><Link to="/">HOME</Link></Nav.Link>
+        <Nav.Link id='about' className=' pl-4 pr-4 ' href="#about" style={{ fontSize: '15px', color: 'gray' }}><Link to="/">ABOUT</Link></Nav.Link>
 
         <NavDropdown className='pl-4 pr-4 text-danger' title="WORK" id="work basic-nav-dropdown" variant='danger' style={{ fontSize: '15px', color: 'gray' }}>
-          <NavDropdown.Item ><Link to='/about/'>Salon</Link></NavDropdown.Item>
-          <NavDropdown.Item ><Link to='/about/'>Bridal Hair</Link></NavDropdown.Item>
-          <NavDropdown.Item ><Link to='/about/'>Bridal Makeup</Link></NavDropdown.Item>
-          <NavDropdown.Item ><Link to='/about/'>Exotic Colors</Link></NavDropdown.Item>
+          <NavDropdown.Item ><Link to='/salon/'>Salon</Link></NavDropdown.Item>
+          <NavDropdown.Item ><Link to='/bridal-hair/'>Bridal Hair</Link></NavDropdown.Item>
+          <NavDropdown.Item ><Link to='/bridal-makeup/'>Bridal Makeup</Link></NavDropdown.Item>
+          <NavDropdown.Item ><Link to='/exotic-colors/'>Exotic Colors</Link></NavDropdown.Item>
         </NavDropdown>
 
-        <Nav.Link id='services' className=' pl-4 pr-4 ' href="#services" style={{ fontSize: '15px', color: 'gray' }}>SERVICES</Nav.Link>
-        <Nav.Link id='contact' className=' pl-4  ' href="#contact" style={{ fontSize: '15px', color: 'gray' }}>CONTACT</Nav.Link>
+        <Nav.Link id='services' className=' pl-4 pr-4 ' href="#services" style={{ fontSize: '15px', color: 'gray' }}><Link to='/'>SERVICES</Link></Nav.Link>
+        <Nav.Link id='contact' className=' pl-4  ' href="#contact" style={{ fontSize: '15px', color: 'gray' }}><Link to='/'>CONTACT</Link></Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

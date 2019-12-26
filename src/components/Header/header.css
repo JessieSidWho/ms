@@ -5,3 +5,6 @@ a.dropdown-toggle.nav-link {
   color: gray;
 }
 
+a {
+  color: gray !important;
+}

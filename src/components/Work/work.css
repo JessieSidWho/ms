@@ -1,32 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 
 #topLeft{
-    height: 50vh;
-    line-height: 50vh;
+    height: 35vh;
+    line-height: 35vh;
     background: linear-gradient(rgba(167, 25, 75, .5),rgba(254, 39, 18, .5),rgba(253, 83, 9, .5));
     color: white;
     font-size: 2rem;
 }
 
 #topRight{
-    height: 50vh;
-    line-height: 50vh;
+    height: 35vh;
+    line-height: 35vh;
     background: linear-gradient(rgba(253, 83, 9, .7),rgba(250, 188, 1, .7),rgba(254, 254, 51, .7));
     color: white;
     font-size: 2rem;
 }
 
 #bottomLeft{
-    height: 50vh;
-    line-height: 50vh;
+    height: 35vh;
+    line-height: 35vh;
     background: linear-gradient(rgba(37, 157, 113, .7),rgba(68, 198, 172, .7), rgba(247, 255, 175, .7));
     color: white;
     font-size: 2rem;
 }
 
 #bottomRight{
-    height: 50vh;
-    line-height: 50vh;
+    height: 35vh;
+    line-height: 35vh;
     background: linear-gradient(rgba(61, 1, 164, .5),rgba(2, 71, 254, .5),rgba(2, 146, 206, .5));
     color: white;
     font-size: 2rem;
