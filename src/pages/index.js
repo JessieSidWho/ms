@@ -4,7 +4,7 @@ import Home from '../components/Home';
 import Work from '../components/Work';
 import Layout from "../components/Layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
+import SEO from "../components/seo";
 
 const IndexPage = () => (
   <Layout>
